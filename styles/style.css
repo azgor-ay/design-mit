@@ -1,0 +1,559 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* -----------------
+    Header Styles 
+--------------------*/
+.page_header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+
+.name_logo {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #131313;
+}
+
+.img_logo {
+    width: 148px;
+}
+
+.logo_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav_link {
+    margin: 2px 0 0 60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+    text-decoration: none;
+}
+
+.banner_info {
+    text-align: center;
+}
+
+.banner_title {
+    padding-top: 116px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.banner_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 32px 0;
+}
+
+.primary_button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 50px;
+    padding: 20px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+.quick_tour_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 301px 130px 301px;
+
+}
+
+.four_colums {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick_tour_info {
+    margin-left: 73px;
+}
+
+.quick_tour_title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.quick_tour_title strong {
+    font-weight: 700;
+    color: #131313;
+}
+
+.quick_tour_title span {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.quick_tour_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 24px 0 32px 0;
+}
+
+.lovely_features {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 240px;
+}
+
+.lovely_features_container {
+    margin-right: 135px;
+}
+
+.lovely_features_title {
+    border-left: 5px solid #FF900E;
+    ;
+    padding: 0 146px 0 21px;
+    margin-bottom: 24px;
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.features_name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    color: #131313;
+
+}
+
+.features_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.box_relative {
+    text-align: center;
+    color: white;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    left: -75px;
+    top: -133px;
+}
+
+.box_overflow {
+    padding: 45px 42px;
+}
+
+.features {
+    margin-bottom: 20px;
+    padding: 30px 42px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.ten_year {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+.exp {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* -----------------------
+    Achievements styles 
+-------------------------*/
+
+.achivement_header {
+    margin: 130px 1138px 100px 240px;
+}
+
+.achievement_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.achievement_short_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.achivements {
+    padding: 0 180px 290px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.achieved_info_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 35px 60px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 242px;
+    height: 242px;
+    transition: 0.5s ease-in-out;
+}
+
+.achieved_info_box:hover {
+    background-color: #ffb7646f;
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 5px -1px 5px #FF900E;
+}
+
+.number_of_achievement {
+    margin: 10px 0 5px 0;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+
+.name_of_work {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* -----------------------------
+    Sponsor Section Styles 
+-------------------------------*/
+.sponsors_text {
+    text-align: center;
+    margin: 0 689px;
+}
+
+.sponsors_title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.sponsors_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.our_sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 240px 150px 240px;
+}
+
+.sponsors_logos img {
+    display: block !important;
+}
+
+.sponsor_logo {
+    filter: grayscale(100%);
+}
+
+/* ----------------------------------------------------
+    News Letter Part - Extra Added By My Self Styles 
+-------------------------------------------------------*/
+.subscribe_newsletter {
+    color: white;
+    text-align: center;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin: 130px 240px 60px 240px;
+    padding: 50px 20px;
+
+}
+
+.subscribe_newsletter_title {
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+}
+
+.input_mail input {
+    width: 50%;
+    padding: 20px 10px;
+    border: none;
+    background: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.input_mail button {
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.669);
+    padding: 20px 30px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.312);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* footer styles */
+.page_footer {
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 130px 240px 216px 240px;
+    padding: 40px;
+}
+
+/* ----------------
+    Responsive
+ ------------------*/
+
+@media only screen and (max-width:576px) {
+    .page_header {
+        padding: 2px;
+    }
+
+    .logo_menu {
+        margin: 30px 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bar_holder {
+        padding: 5px;
+    }
+
+    .nav_link {
+        margin: 5px;
+        padding: 12px 5px;
+    }
+
+    .team_image {
+        width: 100%;
+    }
+
+    .banner_title {
+        font-size: 45px;
+        line-height: 55px;
+        padding-top: 5px;
+    }
+
+    .banner_description {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 27px 0;
+    }
+
+    /* QUICK TOUR */
+
+    .quick_tour_container {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .quick_tour_info {
+        text-align: center;
+        margin: 40px 40px 10px 40px;
+    }
+
+    .four_colums {
+        gap: 9px;
+        padding: 14px;
+        width: 85%;
+    }
+
+    .employees_photo {
+        width: 100%;
+    }
+
+    .primary_button {
+        margin-bottom: 5px;
+    }
+
+    /* lovely features */
+
+    .lovely_features {
+        padding: 50px 30px;
+        flex-direction: column-reverse;
+    }
+
+    .employee_image {
+        width: 100%;
+    }
+
+    .box_relative {
+        left: -24px;
+        top: -57px;
+        width: 157px;
+        height: 85px;
+    }
+
+    .box_overflow {
+        padding: 20px;
+    }
+
+    .ten_year {
+        font-size: 30px;
+        line-height: 0px;
+    }
+
+    .exp {
+        font-size: 15px;
+    }
+
+    .lovely_features_title {
+        padding: 5px 2px 0 21px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .lovely_features_container {
+        margin-right: 0;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .features_name {
+        font-size: 19px;
+        line-height: 16px;
+        margin-bottom: 14px;
+    }
+
+    .features_description {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    /* Achievement Header */
+
+    .achivement_header {
+        text-align: center;
+        margin: 15px;
+    }
+
+    .achivements {
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .achieved_info_box {
+        padding: 26px;
+        width: 210px;
+        height: 175px;
+        margin-bottom: 15px;
+    }
+
+    /* Our sponsors */
+
+    .sponsors_container {
+        margin-top: 60px;
+    }
+
+    .sponsors_text {
+        margin: 20px;
+    }
+
+    .our_sponsors {
+        flex-direction: column-reverse;
+        margin: 5px;
+    }
+
+    .sponsors_logos {
+        padding: 16px;
+    }
+
+    .subscribe_newsletter {
+        margin: 36px 0 0 0;
+        padding: 50px 20px;
+        border-radius: 0px;
+    }
+
+    .subscribe_newsletter_title {
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    .input_mail input {
+        text-align: center;
+        width: 90%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .input_mail button {
+        width: 96%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .page_footer{
+        padding: 40px;
+        margin: 0;
+        border-radius: 0;
+    }
+    .copyright_text{
+        font-size: 0.8em;
+        line-height: 25px;
+    }
+}
